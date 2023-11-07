@@ -39,9 +39,9 @@ int main(int argc, char* argv[]) {
 
 	
   
-    cout << "Time: "
-         << duration.count() << " ms" << endl;
-	    string file_name = "data.log";
+    //cout << "Time: "
+      //   << duration.count() << " ms" << endl;
+	    string file_name = "b.csv";
 		ofstream results;
 		results.open(file_name,std::ofstream::app);
 
